@@ -13,6 +13,7 @@ export const SUPPORTED_MINI_PLATFORMS = [
     "qq",
     "quickapp",
     "h5",
+    "miniprogram"
 ];
 export const SUPPORTED_PLATFORMS = ["h5", ...SUPPORTED_MINI_PLATFORMS];
 export const CURRENT_PLATFORM = process.env.TARO_ENV || "UNSUPPORTED";
